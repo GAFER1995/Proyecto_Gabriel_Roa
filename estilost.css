@@ -1,0 +1,213 @@
+
+      *{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-image: url(Imagenes/sistemas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div img{
+    border-radius: 10%;
+}
+#ima{
+    width: 40%;
+    
+}
+header,.main,footer{
+    
+    width: 90%;
+    max-width: 1000px;
+    margin:20px auto;
+}
+
+
+#header{
+    margin: auto;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.nav li a {
+    background: #528fd5;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 61px;
+    display: block;
+}
+.nav li a:hover{
+    background: #75acec;
+    
+    
+}
+
+.nav >li{
+    float: left;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    
+}
+.nav li:hover>ul{
+    display: block;
+
+}
+
+
+
+.main .article{
+    width: 68.5%;
+    margin-right: 1.5%;
+    float: left;
+    
+}
+.main .article article{
+    padding: 20px;
+    background:#fff ;
+    margin-bottom: 20px;
+}
+
+aside{
+    width: 30%;
+    float: left;
+    
+    
+    
+    
+}
+footer{
+    background: #000;
+    color: #fff;
+    clear: both;
+    max-width: 1000px;
+    padding: 10px 0px;
+    text-align: center;
+    
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+ 
+
+.login {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+}
+
+/* Reset top and bottom margins from certain elements */
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* The triangle form is achieved by a CSS hack */
+.login-triangle {
+  width: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border: 12px solid transparent;
+  border-bottom-color: #28d;
+}
+
+.login-header {
+  background: #28d;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.login-container {
+  background: #ebebeb;
+  padding: 12px;
+}
+
+/* Every row inside .login-container is defined with p tags */
+.login p {
+  padding: 12px;
+}
+
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+.login select{
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+  
+}
+
+
+
+.login input[type="text"],
+.login input[type="text"]{
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+
+
+
+/* Text fields' focus effect */
+
+.login input[type="text"]:focus,
+.login input[type="text"]:focus {
+  border-color: #888;
+}
+
+
+
+.login input[type="button"] {
+  background: #28d;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login input[type="button"]:hover {
+  background: #17c;
+}
+
+/* Buttons' focus effect */
+.login input[type="button"]:focus {
+  border-color: #05a;
+}
+      
+       
+
+
+    
+    
+
+
